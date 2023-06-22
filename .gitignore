@@ -1,0 +1,17 @@
+.idea/
+*.DS_Store
+node_modules
+package-lock.json
+*.csproj.user
+*.suo
+*.cache
+Thumbs.db
+*.DS_Store
+
+*.bak
+*.cache
+*.log
+*.swp
+*.user
+
+
