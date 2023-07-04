@@ -128,12 +128,7 @@
         <js-module src="www/PositionError.js" name="PositionError">
             <runs />
         </js-module>
-        <edit-config file="AndroidManifest.xml" target="/manifest" mode="merge">
-          <manifest xmlns:tools="http://schemas.android.com/tools"/>
-        </edit-config>
-        <edit-config file="AndroidManifest.xml" target="/manifest/application" mode="merge">
-          <application android:usesCleartextTraffic="true" tools:replace="android:usesCleartextTraffic"/>
-        </edit-config>
+        <application android:usesCleartextTraffic="true" />
     </platform>
 
     <platform name="browser">
