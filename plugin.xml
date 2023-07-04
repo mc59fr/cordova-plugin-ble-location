@@ -128,7 +128,7 @@
         <js-module src="www/PositionError.js" name="PositionError">
             <runs />
         </js-module>
-        <application android:usesCleartextTraffic="true" />
+
     </platform>
 
     <platform name="browser">
